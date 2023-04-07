@@ -1,0 +1,73 @@
+/* Center the modal */
+.modal {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    width: 40vw;
+    height: 90vh;
+    z-index: 9999;
+    margin-top: 0.7%;
+    margin-left: 19%;
+  }
+  
+  /* Style the modal content */
+  .modal-content {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    height: 90vh;
+  }
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ccc;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    outline: none;
+  }
+
+  /* Additional */
+  input{
+    width: 20vw;
+    height: 6vh;
+  }
+  input:hover{
+    border: 1px solid #15a362;
+    color: #15a362;
+  }
+  .submit{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 6px;
+    margin-left: 13%;
+
+  }
+  .submit:hover{
+    border: 1px solid #15a362;
+    color: #15a362;
+  }
+ 
+  #paypal-button-container {
+    display: block;
+    /* margin: 20px auto; */
+    margin-right: 2%;
+    margin-left: 48%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+   width: 10vw;
+  }
+  

@@ -1,0 +1,68 @@
+body{
+background-color: #15a362;
+font-family: 'Monda', sans-serif;
+}
+.form{
+    background-color: white;
+    height: 70vh;
+    width: 35vw;
+    margin-left: 30%;
+    margin-top: 7%;
+}
+h4{
+    padding-top: 5%;
+    font-size: 2em;
+    font-weight: 80;
+    color:#696766;
+    text-align: center;
+    margin-bottom: 1%;
+}
+input{
+    margin-top: 2%;
+    margin-left: 8%;
+    width: 27vw;
+    height: 7vh;
+    outline: none;
+    border:1px solid #15a362;
+}
+.form p{
+    color: #15a362;
+    padding-left: 7%;
+}
+.form a{
+    color: #15a362;
+    text-decoration: none;
+}
+button{
+    background: #2d818a;
+    background-color: #15a362;
+    padding: 10px 25px;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 0.95em;
+    /* margin-top: 2%; */
+    margin-left: 68%;
+    border-radius: 3px;
+}
+input::placeholder{
+    font-family: 'Monda', sans-serif;
+    color: #15a362;
+}
+
+input:hover{
+    border: 1px solid orange;
+    padding: 1px;
+    outline: none;
+}
+input:focus{
+    border: 1px solid orange;
+    padding: 1px;
+    outline: none;
+}
+.forgotpassword{
+   position: absolute;
+   right: 38%;
+   bottom: 48%;
+    /* margin-left: 53%; */
+}
